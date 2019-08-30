@@ -1,11 +1,21 @@
 <template>
-    <el-carousel :interval="5000" arrow="always">
+    <el-carousel arrow="never">
         <el-carousel-item v-for="item in 4" :key="item">
             <h3>{{ item }}</h3>
         </el-carousel-item>
     </el-carousel>
 </template>
-<style>
+<script>
+import Vue from 'vue';
+import Component from 'vue-class-component';
+
+export default @Component()
+
+class Login extends Vue {
+
+}
+</script>
+<style lang="scss" scoped>
 .el-carousel__item h3 {
     color: #475669;
     font-size: 18px;
@@ -21,4 +31,4 @@
 .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
 }
-</style>
+</style>>
