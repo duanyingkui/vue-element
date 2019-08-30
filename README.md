@@ -24,4 +24,5 @@ npm run build
 ```
 npm run lint
 ```
-
+### node-sass 被墙解决方法
+npm install node-sass --sass-binary-site=http://npm.taobao.org/mirrors/node-sass
