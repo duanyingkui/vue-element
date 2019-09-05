@@ -5,43 +5,43 @@ html, body {
 /* 去掉ul默认样式 */
 ul, li{
     list-style: none;
-  }
-  /* 去掉输入框默认样式 */
-  input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 400px #fff inset;
-  }
-  // 输入框的样式重置
-  input, textarea,input:focus, textarea:focus{
-    outline: none !important;
-  }
-  /* 左右浮动 */
-  .fl {
-    float: left;
-  }
-  .fr {
-    float: right;
-  }
-   /* 文字对齐 */
-  .text-center {
-    text-align: center;
-  }
-  .text-left {
-    text-align: left;
-  }
-  .text-right {
-    text-align: right;
-  }
-  /* 去除左右浮动 */
-  .clearfix {
-    display: block;
-    zoom: 1;
+}
+/* 去掉输入框默认样式 */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 400px #fff inset;
+}
+// 输入框的样式重置
+input, textarea,input:focus, textarea:focus{
+  outline: none !important;
+}
+/* 左右浮动 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+  /* 文字对齐 */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+/* 去除左右浮动 */
+.clearfix {
+  display: block;
+  zoom: 1;
 
-    &:after {
-      content: " ";
-      display: block;
-      font-size: 0;
-      height: 0;
-      clear: both;
-      visibility: hidden;
-    }
+  &:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
   }
+}
